@@ -13,6 +13,8 @@ Detyra në kuadër të këtij projekti është vënia në praktikë e njohurive 
 - Tabelat
 - Imazhet
 - Format
+- iFrame (video)
+- Audio
 
 
 ### Teknologjitë e përdorura
