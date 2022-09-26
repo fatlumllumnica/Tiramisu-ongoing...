@@ -9,6 +9,7 @@ Për realizimin e këtij projekti janë përdorur:
 
  - Html5
  - Git
+ - Css
 
 ### Konfigurimet e nevojshme
 
