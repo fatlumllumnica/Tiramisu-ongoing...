@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Tiramisu Recipe2</title>
+    <title>Order Form</title>
 </head>
 <body>
 
-<table width="63%" align="center">  <!--tabela kryesore-->
+<table width="63%" align="center">
 <tr>
-    <td id="order">
+    <td>
     <form action="orderconfirmation.html">
         <fieldset class="fieldset1"> <!--Main Fieldset-->
             <legend style="font-size:20px;" align="center">Tiramisu Order Form</legend>
@@ -28,7 +28,7 @@
                 <textarea id="address" name="Address" cols="28" rows="4" placeholder="Your address..."></textarea><hr>
 
                 <label for="tel">Phone number:</label><br>  <!--Input type = Tel-->
-                <input type="tel" name="Phone Number" id="tel"  autocomplete="off" placeholder="0xx-xxx-xxx" pattern="[0-9]{9}" title="Characters required : 9" required><hr><br>
+                <input type="tel" name="Phone Number" id="tel"  autocomplete="off" placeholder="0xx-xxx-xxx" pattern="[0-9]{9}" title="Characters required : 9" required><br><br>
             </fieldset>
 
             <fieldset style="display:inline; width: 46%;"> <!--Second Nested Fieldset-->
@@ -49,7 +49,12 @@
                 <input type="radio" name="Payment method" id="Cash" value="Cash">
                 <label for="Cash">Cash</label><br>
                 <input type="radio" name="Payment method" id="Bank" value="Bank">
-                <label for="Bank">Bank</label><hr><br><br><br><br>
+                <label for="Bank">Bank</label><hr>
+                
+                <label>Order Date:</label><br>
+                <input type="date" name="OrderDate">
+
+                <br><br>
             </fieldset>
 
                 <br><br><br>
@@ -63,7 +68,7 @@
     </td>
 </tr>
 
-</table> <!-- /tabela kryesore-->
+</table>
 <br><br><br><br><br><br><br><br><br><br>
 
 </body>
