@@ -2,7 +2,18 @@
 
 ### Rreth Projektit
 
-Detyra në kuadër të këtij projekti është përdorimi i Tabelave dhe tagjeve të tjera të mësuara deri më tani në kuadër të Bootcamp.
+Detyra në kuadër të këtij projekti është vënia në praktikë e njohurive të reja, të përvetësuara pas secilit sesion të përfuduar deri më tani në kuadër të Bootcamp.
+
+### Njohuritë e praktikuara deri më tani:
+
+- Html Tags
+- Md. files
+- Linqet 
+- Listat
+- Tabelat
+- Imazhet
+- Format
+
 
 ### Teknologjitë e përdorura
 Për realizimin e këtij projekti janë përdorur:
