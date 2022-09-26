@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Tiramisu Recipe2</title>
+    <link rel="icon" href="images/tiramisu favicon.jpg">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
     <table align="center" width="100%">   <!-- 1st nested table-->
         <tr>
             <td><h1 id="top">Tiramisu</h1></td>
-            <td align="right" valign="bottom"><p><a href="https://www.amazon.com/">Buy on Amazon!</a><br><a class="order" href="#order">Order Now</a></p></td>
+            <td align="right" valign="bottom"><p><a href="https://www.amazon.com/">Buy on Amazon!</a><br><a class="order" href="orderform.html" target="_blank">Order Now</a></p></td>
         </tr>
     </table>
 </td>
@@ -89,58 +90,8 @@
         </dl>
     </td>
 </tr>
-
 <tr>
-    <td id="order">
-    <form action="">
-        <fieldset class="fieldset1"> <!--Main Fieldset-->
-            <legend style="font-size:20px;" align="center">Tiramisu Order Form</legend>
-            <br>
-            <fieldset style="display:inline; width: 46%;"> <!--First Nested Fieldset-->
-                <legend align="center">Personal Information</legend>
-                <br>
-                <label for="name">Name:</label><br>
-                <input type="text" name="name" id="name" placeholder="Type your name here..." autocomplete="off" minlength="2" maxlength="20" required><hr>
-                <label for="lname">Surname:</label><br>
-                <input type="text" name="username" id="lname" placeholder="Type your username here..." autocomplete="off"><hr>
-
-                <label for="address">Address:</label><br>   <!--Input type = TextArea-->
-                <textarea id="address" name="Address" cols="28" rows="4" placeholder="Your address..."></textarea><hr>
-
-                <label for="tel">Phone number:</label><br>  <!--Input type = Tel-->
-                <input type="tel" name="Phone Number" id="tel"  autocomplete="off" placeholder="0xx-xxx-xxx" pattern="[0-9]{9}" required><hr><br>
-            </fieldset>
-
-            <fieldset style="display:inline; width: 46%;"> <!--Second Nested Fieldset-->
-                <legend align="center">Order Details</legend>
-                <br>
-                <label for="number">How many?</label><br>   <!--Input type = Number-->
-                <input type="number" name="Quantity" id="number" min="1" max="20" placeholder="1-20"><hr>
-                
-                <label>Add Extra Items:</label><br>   <!-- Input type = Checkbox-->
-                <input type="checkbox" id="Cola" name="Extra" value="Cola">
-                <label for="Cola">Cola</label><br>
-                <input type="checkbox" id="Pepsi" name="Extra" value="Pepsi">
-                <label for="Pepsi">Pepsi</label><br>
-                <input type="checkbox" id="Water" name="Extra" value="Water">
-                <label for="Water">Water</label><hr>
-
-                <label>Select Payment Method:</label><br>   <!--Input type = Radio-->
-                <input type="radio" name="Payment method" id="Cash" value="Cash">
-                <label for="Cash">Cash</label><br>
-                <input type="radio" name="Payment method" id="Bank" value="Bank">
-                <label for="Bank">Bank</label><hr><br><br><br><br>
-            </fieldset>
-
-                <br><br><br>
-                <div align="center">
-                <button value="submit">Order Now</button>
-                <input type="reset" value="Reset Form">
-                <p><a href="#top">Back Home</p>
-                </div>
-        </fieldset>
-    </form>
-    </td>
+    <td align="center" style="font-size:20px;"><a href="#top">Home</a></td>
 </tr>
 
 </table> <!-- /tabela kryesore-->
