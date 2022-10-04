@@ -1,11 +1,16 @@
 div button, div input {
     color: blue;
-    background-color: powderblue;
+    background-color: rgb(220, 240, 245);
+    box-shadow: -5px 5px 10px rgb(60, 60, 60);
     border-radius: 5px;
     border:none;
     padding: 10px 20px;
     font-size: 15px;
     font-weight: bold;    
+}
+div input {
+    background-color: rgb(220, 240, 245);
+    box-shadow: 5px 5px 5px  rgb(60, 60, 60);
 }
 
 div p a:hover {
@@ -20,17 +25,12 @@ div button:hover, div input:hover {
 }
 
 legend {
-    color: blue;
+    color: rgba(34, 34, 73, 0.804);
     font-weight: bold;
-    background-color: powderblue;
-    border: 1px solid black;
-    padding: 5px 10px;
+    background-color: rgb(220, 240, 245);
+    padding: 5px 15px;
     border-radius: 5px;
-}
-
-.fieldset1 {
-    border: 2px solid blue;
-    border-radius: 5px;
+    box-shadow: 5px 5px 5px  rgb(60, 60, 60);
 }
 
 label {
@@ -51,5 +51,21 @@ input, textarea {
     padding: 5px;
 }
 
+.main-fieldset {
+    border: 2px solid rgb(139, 139, 152);
+    border-radius: 20px;
+    background-color: rgb(96, 116, 118);
+    box-shadow: 20px 10px 10px grey;
+}
+
+.fieldset1, .fieldset2 {
+    transform: skew(-2deg, 0deg);
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(139, 139, 152);
+    background-color:white;
+    width: 40%;
+    box-shadow: 5px 5px 10px powderblue;
+}
 
 
