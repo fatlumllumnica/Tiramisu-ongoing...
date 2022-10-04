@@ -82,7 +82,18 @@ h1 { font-family: 'bakery-h';
     font-size: 50px;
     text-shadow: 5px 5px 10px rgb(60, 34, 34);
     margin: 10px 0px 5px 0px;
+    
 }
 
+.container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    width: 62%;
+}
 
 
