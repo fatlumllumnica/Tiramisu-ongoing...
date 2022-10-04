@@ -1,0 +1,89 @@
+div button, div input {
+    color: blue;
+    background-color: rgb(220, 240, 245);
+    box-shadow: -5px 5px 10px rgb(60, 60, 60);
+    border-radius: 5px;
+    border:none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;    
+}
+div input {
+    background-color: rgb(220, 240, 245);
+    box-shadow: 5px 5px 5px  rgb(60, 60, 60);
+    
+}
+
+div p a:hover {
+    font-size: 30px;
+    transition: 0.6s;
+}
+
+div button:hover, div input:hover {
+    font-size: 25px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+legend {
+    color: black(5, 5, 20, 0.804);
+    font-weight: bold;
+    background-color: rgb(220, 240, 245);
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px  rgb(60, 60, 60);
+}
+
+label {
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+}
+
+.order:hover {
+    font-size: 25px;
+    transition: 0.6s;
+}
+
+input, textarea {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.main-fieldset {
+    margin-top: 20px;
+    border: 2px solid rgb(139, 139, 152);
+    border-radius: 20px;
+    background-color: rgb(96, 116, 118);
+    box-shadow: 20px 10px 10px grey;
+}
+
+.fieldset1, .fieldset2 {
+    transform: skew(-2deg, 0deg);
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(139, 139, 152);
+    background-color:white;
+    width: 40%;
+    box-shadow: 5px 5px 10px powderblue;
+}
+
+@font-face {
+    font-family: 'bakery-h';
+    src: url('/assets/fonts/RemachineScript_Personal_Use.ttf');
+
+}
+
+h1 { font-family: 'bakery-h';
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgb(60, 34, 34);
+    margin: 10px 0px 5px 0px;
+}
+
+
+
+
