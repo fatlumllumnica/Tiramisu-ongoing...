@@ -7,7 +7,7 @@ Detyra në kuadër të këtij punimi është vënia në praktikë e njohurive t�
 ### Njohuritë e praktikuara deri më tani:
 
 - HTML (Tags Links, Lists, Tabels, Images, Forms, Inputs, iFrame (video), Audio, Fields, etc...)
-- CSS ( Selectors, Colors, Fonts, Borders, Paddings, Margins, etc... )
+- CSS ( Selectors, Colors, Fonts, Borders, Paddings, Margins, Positioning elements, Transitions, etc... )
 - Md.(Markdown)files
 
 
