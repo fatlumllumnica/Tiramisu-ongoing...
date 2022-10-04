@@ -11,6 +11,7 @@ div button, div input {
 div input {
     background-color: rgb(220, 240, 245);
     box-shadow: 5px 5px 5px  rgb(60, 60, 60);
+    
 }
 
 div p a:hover {
@@ -25,7 +26,7 @@ div button:hover, div input:hover {
 }
 
 legend {
-    color: rgba(34, 34, 73, 0.804);
+    color: black(5, 5, 20, 0.804);
     font-weight: bold;
     background-color: rgb(220, 240, 245);
     padding: 5px 15px;
@@ -41,6 +42,7 @@ a {
     font-weight: bold;
 }
 
+
 .order:hover {
     font-size: 25px;
     transition: 0.6s;
@@ -52,6 +54,7 @@ input, textarea {
 }
 
 .main-fieldset {
+    margin-top: 20px;
     border: 2px solid rgb(139, 139, 152);
     border-radius: 20px;
     background-color: rgb(96, 116, 118);
@@ -67,5 +70,20 @@ input, textarea {
     width: 40%;
     box-shadow: 5px 5px 10px powderblue;
 }
+
+@font-face {
+    font-family: 'bakery-h';
+    src: url(/assets/fonts/RemachineScript_Personal_Use.ttf);
+
+}
+
+h1 { font-family: 'bakery-h';
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgb(60, 34, 34);
+    margin: 10px 0px 5px 0px;
+}
+
 
 
