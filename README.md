@@ -1,28 +1,23 @@
-# Tiramisu Recipe
+# Tiramisu Recipe (ongoing task)
 
-### Rreth Projektit
+### Rreth Detyrës
 
-Detyra në kuadër të këtij projekti është vënia në praktikë e njohurive të reja, të përvetësuara pas secilit sesion të përfuduar deri më tani në kuadër të Bootcamp.
+Detyra në kuadër të këtij punimi është vënia në praktikë e njohurive të reja, të përvetësuara pas secilit sesion të përfuduar deri më tani në kuadër të Bootcamp.
 
 ### Njohuritë e praktikuara deri më tani:
 
-- Html Tags
-- Md. files
-- Linqet 
-- Listat
-- Tabelat
-- Imazhet
-- Format
-- iFrame (video)
-- Audio
+- HTML (Tags Links, Lists, Tabels, Images, Forms, Inputs, iFrame (video), Audio, Fields, etc...)
+- CSS ( Selectors, Colors, Fonts, Borders, Paddings, Margins, etc... )
+- Md.(Markdown)files
 
 
 ### Teknologjitë e përdorura
-Për realizimin e këtij projekti janë përdorur:
+Për realizimin e kësaj detyre janë përdorur:
 
  - Html5
  - Git
  - Css
+ - GitHub
 
 ### Konfigurimet e nevojshme
 
