@@ -1,4 +1,4 @@
-# Tiramisu Recipe (ongoing task)
+# Tiramisu Recipe (tableview)
 
 ### Rreth Detyrës
 
@@ -14,9 +14,9 @@ Detyra në kuadër të këtij punimi është vënia në praktikë e njohurive t�
 ### Teknologjitë e përdorura
 Për realizimin e kësaj detyre janë përdorur:
 
- - Html5
+ - HTML5
  - Git
- - Css
+ - CSS3
  - GitHub
 
 ### Konfigurimet e nevojshme
