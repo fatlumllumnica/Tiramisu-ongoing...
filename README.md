@@ -1,6 +1,6 @@
 # Tiramisu Recipe (ongoing task)
 
-### Rreth Detyrës hi
+### Rreth Detyrës
 
 Detyra në kuadër të këtij punimi është vënia në praktikë e njohurive të reja, të përvetësuara pas secilit sesion të përfuduar deri më tani në kuadër të Bootcamp.
 
